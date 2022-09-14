@@ -1,0 +1,96 @@
+
+
+body{
+    font-family: "Roboto", Roboto, sans-serif;
+    color: #212121;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+/* ---------!HEADER!-------- */
+
+.header-logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+color: #2196F3;
+}
+.text-logo{
+    color: #212121;
+}
+
+.header-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.header-link:hover{
+    color: #2196F3;
+}
+
+.header-link:focus{
+    color: #2196F3;
+}
+
+.headr-mail{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+
+.header-tel{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em; 
+color: #757575;
+}
+
+/* ---------!HEADER!-------- */
+
+/* ---------!HEROV!-------- */
+
+.herov{
+    background-color: #2F303A;
+}
+
+.herov-titel {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.herov-btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
