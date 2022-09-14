@@ -16,7 +16,7 @@ body{
 /* ---------!HEADER!-------- */
 
 .header-logo{
-    font-family: 'Raleway';
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -93,4 +93,99 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+}
+
+/* ---------!HEROV!-------- */
+
+.features-titel {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-text {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ---------!FEATURES!-------- */
+
+/* ---------!WORK!-------- */
+
+.work-titel{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* ---------!WORK!-------- */
+
+/* ---------!TEAM!-------- */
+
+.team-titel{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.team-titel-name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* ---------!TEAM!-------- */
+
+/* ---------!FOOTER!-------- */
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-mail {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
