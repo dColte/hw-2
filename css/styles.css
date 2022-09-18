@@ -1,6 +1,7 @@
 :root{
     --accent-color: #2196F3;
     --main-text: #212121;
+    --section-text: #757575
 }
 
 body{
@@ -19,16 +20,16 @@ body{
 /* ---------!HEADER!-------- */
 
 .header-logo{
-font-family: 'Raleway' sans-serif;
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.38;
 /* identical to box height */
-color: #2196F3;
+color: #212121;
 }
 .text-logo{
-    color: #212121;
+    color: #2196F3;
 }
 
 .header-link{
@@ -81,9 +82,11 @@ color: #FFFFFF;
 }
 
 .herov-btn{
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 700;
 font-size: 16px;
-line-height: 1.88;
+line-height: 1.88;        
 display: flex;
 align-items: center;
 text-align: center;
@@ -106,7 +109,7 @@ color: var(--main-text);
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--section-text);
 }
 
 
@@ -148,7 +151,7 @@ line-height: 1.18;
 /* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--section-text);
 }
 
 /* ---------!FOOTER!-------- */
@@ -159,6 +162,20 @@ color: #757575;
 
 .footer-adderess {
     font-style: normal;
+}
+
+.header-logo-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.text-logo-footer{
+    color: #2196F3;
 }
 
 .footer-link{
@@ -185,26 +202,28 @@ color: rgba(255, 255, 255, 0.6);
 /* ---------!PORTFOLIO!-------- */
 
 .portfolio-btn{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    cursor: pointer;
-    }
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+cursor: pointer;
+}
 
 .portfolio-titel {
     font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--main-text);
 }
 
 .portfolio-text {
     font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--section-text);
 }
