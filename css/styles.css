@@ -1,4 +1,7 @@
-
+:root{
+    --accent-color: #2196F3;
+    --main-text: #212121;
+}
 
 body{
     font-family: "Roboto", Roboto, sans-serif;
@@ -16,7 +19,7 @@ body{
 /* ---------!HEADER!-------- */
 
 .header-logo{
-font-family: 'Raleway';
+font-family: 'Raleway' sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -30,20 +33,19 @@ color: #2196F3;
 
 .header-link{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--main-text);
 }
 
 .header-link:hover{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .header-link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .headr-mail{
@@ -62,8 +64,6 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-/* ---------!HEADER!-------- */
-
 /* ---------!HEROV!-------- */
 
 .herov{
@@ -71,8 +71,6 @@ color: #757575;
 }
 
 .herov-titel {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -83,8 +81,6 @@ color: #FFFFFF;
 }
 
 .herov-btn{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -96,7 +92,7 @@ color: #FFFFFF;
 cursor: pointer;
 }
 
-/* ---------!HEROV!-------- */
+/* ---------!FEATURES!-------- */
 
 .features-titel {
 font-weight: 700;
@@ -104,17 +100,15 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--main-text);
 }
 .features-text {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
 }
 
-/* ---------!FEATURES!-------- */
 
 /* ---------!WORK!-------- */
 
@@ -124,10 +118,9 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-text);
 }
 
-/* ---------!WORK!-------- */
 
 /* ---------!TEAM!-------- */
 
@@ -137,20 +130,19 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-text);
 }
 
 .team-titel-name {
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 /* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--main-text);
 }
 .team-text {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 /* identical to box height */
@@ -159,16 +151,17 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-/* ---------!TEAM!-------- */
-
 /* ---------!FOOTER!-------- */
 
 .footer{
     background-color: #2F303A;
 }
 
+.footer-adderess {
+    font-style: normal;
+}
+
 .footer-link{
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -176,7 +169,6 @@ color: #FFFFFF;
 }
 
 .footer-mail {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -184,9 +176,35 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-tel{
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+
+/* ---------!PORTFOLIO!-------- */
+
+.portfolio-btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+    }
+
+.portfolio-titel {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.portfolio-text {
+    font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
 }
